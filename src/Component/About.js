@@ -16,7 +16,7 @@ export default  function About(props){
         
         <div className='container' style={myStyle}>
             <h1>About us</h1>
-        <div className="accordion" id="accordionExample">
+        {/* <div className="accordion" id="accordionExample">
   <div className="accordion-item">
     <h2 className="accordion-header" id="headingOne">
       <button className="accordion-button" type="button" style={myStyle} data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
@@ -53,7 +53,12 @@ export default  function About(props){
       </div>
     </div>
   </div>
-</div>
+        </div> */}
+        <div>
+        TextUtils is a simple and user-friendly text manipulation tool built with React. It allows you to easily convert text to uppercase, lowercase, and remove spaces etc. and new features is comming soon. 
+
+        It is developed by Rohit Kumar Sharma
+        </div>
 
 </div>
     );
